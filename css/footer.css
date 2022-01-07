@@ -1,0 +1,35 @@
+/* Color footer 1: #4A5568;
+Color footer 2: #2D3748;  */
+footer{
+    height: 1px;
+    background-color: #2D3748;
+    width: 100%;
+    min-height: 30vh;
+    
+}
+
+footer .mark{
+    background-color: #4A5568;
+    width: auto;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .logo{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: calc(100% - 80px);    
+}
+
+footer .logo img{
+width: 100px;
+}
+
+footer .mark img{
+    width: 45px;
+
+}
