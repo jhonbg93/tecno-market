@@ -1,0 +1,51 @@
+/* Tablet */
+@media (max-width: 1024px) {
+    .productos .producto{
+        width: 50%;
+        
+    }
+    header .logo{
+        margin-top: 10px;
+        margin-left: 40%;
+    }
+
+}
+
+/* Mobile */
+@media (max-width: 480px){
+    .productos .producto{
+        width: 100%;        
+    }
+    
+    .menu{
+        display: block;
+    }
+
+    header{
+        flex-direction: column;
+        height: auto;
+    }
+
+    header div{
+        width: 100%;
+    }
+
+    header .logo{
+        margin-top: 10px;
+        margin-left: 40%;
+    }
+
+    nav{
+        justify-content: center;
+    };
+
+    nav ul{
+        margin: 0;
+    }
+
+    nav ul li {
+        display: block;
+        padding: 10px 0;
+        text-align: center;
+    }
+}

@@ -9,6 +9,7 @@
 .productos .producto{
     width: 25%;
     margin-top: 10px;
+
     
 }
 
@@ -22,6 +23,7 @@
 .productos .producto .contenedor{
     width: 80%;
     background-color: white;
+    margin: auto;
 }
 
 .productos .producto .contenedor .detalles{

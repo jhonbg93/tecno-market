@@ -19,6 +19,16 @@ header > div{
     width: 50%;
 }
 
+
+.menu{
+    width: 40px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    display:none ;
+}
+ 
+
 .logo{
     width: 100px;
     margin-left: 20px;
