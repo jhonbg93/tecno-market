@@ -23,7 +23,9 @@
 
     header{
         flex-direction: column;
-        height: auto;
+        height: 60px;
+        overflow: hidden;
+        
     }
 
     header div{
